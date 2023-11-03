@@ -15,6 +15,19 @@
   color:rgb(14, 146, 124);
   font-size: 1.4rem;
 }
+.main-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2vh;
+}
+
+.mainban1 img{
+  height: 100vh;
+  width: 40rem;
+  margin-top: 2vh;
+}
 
 .main2{
   height: 70vh;
@@ -24,13 +37,10 @@
   align-items: center;
 
 }
-.main2ban1{
-  height: 68vh;
-  width: 30%;
-}
+
 .main2ban2{
   height: 68vh;
-  width: 70%;
+  width: 100%;
 }
 .main2ban1 img{
   height: 68vh;
@@ -98,6 +108,20 @@ footer img{
     margin-top: 2rem;
     align-items: center;
   }
+
+  .main-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+  }
+  
+  .mainban1 img{
+    height: 70vh;
+    width: 25rem;
+    margin-top: 2vh;
+  }
   
   .main2{
     height: 35vh;
@@ -110,13 +134,10 @@ footer img{
   .slider{
     height: 30vh;
   }
-  .main2ban1{
-    height: 30vh;
-    width: 30%;
-  }
+
   .main2ban2{
     height: 30vh;
-    width: 70%;
+    width: 100%;
   }
   .main2ban1 img{
     height: 30vh;

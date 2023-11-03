@@ -12,8 +12,14 @@ import bannermain3 from './banners/bannermain3.jpg'
 import bannermain4 from './banners/bannermain5.jpg'
 import bannermain5 from './banners/bannermain4.jpeg'
 import bannermain6 from './banners/bannermain6.jpg'
+import bannermain7 from './images/1/Whatsaap Diwali-2.jpg'
+import bannermain8 from './images/1/Whatsaap Diwali-3.jpg'
+import bannermain9 from './images/1/Whatsaap Diwali-4.jpg'
+import bannermain10 from './images/1/Whatsaap Diwali-5.jpg'
+import bannermain11 from './images/1/Whatsaap Diwali-6.jpg'
+import bannermain12 from './images/1/Whatsaap Diwali-7.jpg'
+import bannermain13 from './images/1/Whatsaap Diwali-8.jpg'
 import myVideo from './banners/video.mp4'
-import bannermain7 from './banners/bannermain7.jpg'
 import { GiRotaryPhone } from 'react-icons/gi';
 import './App.css';
 
@@ -84,20 +90,26 @@ function App() {
       </div>
 
       <h1 className='mt-4 text-center'>Our Best Deals</h1>
+      <div className='main-1'>
+      <div className='mainban1'><img src={bannermain1}/></div>
+      <div className='mainban1'><img src={bannermain7}/></div>
+      </div>
+      <div className='main-1'>
+      <div className='mainban1'><img src={bannermain8}/></div>
+      <div className='mainban1'><img src={bannermain9}/></div>
+      </div>
+      <div className='main-1'>
+      <div className='mainban1'><img src={bannermain10}/></div>
+      <div className='mainban1'><img src={bannermain11}/></div>
+      </div>
+      <div className='main-1'>
+      <div className='mainban1'><img src={bannermain12}/></div>
+      <div className='mainban1'><img src={bannermain13}/></div>
+      </div>
       <div className='d-flex main2 '>
-        <div className=' main2ban1'><img src={bannermain1} alt='...'/></div>
         <div className='main2ban2'><img src={bannermain2} alt='...'/></div>
       </div>
-      <div className='d-flex main2 '>
-        <div className='main2ban3'><img src={bannermain3} alt='...'/></div>
-      </div>
-      <div className='d-flex main2 '>
-        <div className='main2ban2'><img src={bannermain4} alt='...'/></div>
-        <div className=' main2ban1'><img src={bannermain5} alt='...'/></div>
-      </div>
-      <div className='d-flex main2 '>
-        <div className='main2ban3'><img src={bannermain6} alt='...'/></div>
-      </div>
+
       <div className='d-flex main2 '>
         <div className='main2ban3'>
         <video controls autoPlay>
@@ -106,8 +118,9 @@ function App() {
       </video>
       </div>
       </div>
+      
       <div className='d-flex main2 '>
-        <div className='main2ban3'><img src={bannermain7} alt='...'/></div>
+        <div className='main2ban3'><img src={bannermain6} alt='...'/></div>
       </div>
 
       <footer>
